@@ -1,6 +1,6 @@
 # My Site
 
-This site is a web page which is responsive and can be seen on any screen without any issues.
+This website gives a brief idea about my projects and is totally responsive and can be seen on any screen without any issues.
 
 ## Getting Started
 
