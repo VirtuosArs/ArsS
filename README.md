@@ -21,7 +21,7 @@ In order to see the website you just need to open the `index.html` file in your 
 
 ## Authors
 
-* **Ankush Sankhe** - *HTML and CSS scripting* 
+* **Ankush Sankhe** - *HTML, CSS and JavaScript scripting* 
 
 ## Acknowledgments
 P
