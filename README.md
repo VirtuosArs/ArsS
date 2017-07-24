@@ -28,5 +28,5 @@ P
 * **w3Schools.com** for image slideshow content (https://www.w3schools.com)
 * favicon image from (https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png)
 * logo image `ars2.png` made from (https://logomakr.com/7URgVu)
-* fire image from (http://wallpapercave.com/wp/scUll9f.jpg)
+* **Brad Traversy** for teaching bootstrap in simple way. 
 * Hat tip to anyone who's code was used
