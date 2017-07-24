@@ -1,6 +1,6 @@
 # My Site
 
-This website gives a brief idea about my projects and is totally responsive therefore can be seen on any screen without any issues.
+This website gives a brief idea about my projects and is totally responsive therefore can be seen on any screen and device without any issues.
 
 ## Getting Started
 
@@ -27,6 +27,7 @@ In order to see the website you just need to open the `index.html` file in your 
 
 * **w3Schools.com** for image slideshow content (https://www.w3schools.com)
 * favicon image from (https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png)
-* logo image `ars2.png` made from (https://logomakr.com/7URgVu)
+* **fontawesome** for all the logos.
+* **koala** used for Sass compilation. 
 * **Brad Traversy** for teaching bootstrap in simple way. 
-* Hat tip to anyone who's code was used
+* Hat tip to anyone who's code was used.
