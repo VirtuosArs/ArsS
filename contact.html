@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Ankush" content="">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <title>Ankush Sankhe | Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">ARS</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="http://google-plus.com"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="title-bar">
+      <div class="container">
+        <h1>Contact</h1>
+      </div>
+    </div>
+
+    <div class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">Please Enter your Details For Our Website!</h4>
+            </div>
+            <div class="panel-body">
+             <!--  <form>
+                  <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" placeholder="Enter Name">
+                  </div>
+                  <div class="form-group">
+                    <label>Email</label>
+                    <input type="text" class="form-control" placeholder="Enter Email">
+                  </div>
+                  <div class="form-group">
+                    <label>Message</label>
+                    <textarea class="form-control" placeholder="Enter Message"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form> -->
+
+                
+    <form action="https://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+      <fieldset>
+        <legend>Your Face</legend>
+        <label for="pic">Your image:  </label><input type="file" id="pic" name="pic" accept="image/*" required>
+        <br>
+        <label for="preview">Image Preview: </label><img id="preview" />
+      </fieldset>
+      <fieldset>
+        <legend>Your General Details</legend>
+        <label for="name">Name: </label><input type="text" id="name" name="name"  class="form-control" placeholder="Your full name" required>
+        <br>
+        <label for="gender">Gender: </label><input type="radio" id="gender" name="gender"  value="male" required> Male  <input type="radio" id="gender" name="gender"  value="female" required> Female
+        <br>
+        <label for="age">Age: </label><input type="number" id="age" name="age"  class="form-control"  value=18 required>
+        <br>
+        <label for="bday">Date of Birth: </label><input type="date" id="bday" name="bday"  class="form-control">
+        <br>
+        <label for="favcolor">Favorite Color: </label><input type="color" id="favcolor" name="favcolor"  class="form-control"  value="#000000">
+        <br>
+        <label for="country">Which Country :</label>
+        <select>
+          <option disabled selected value> -- select an option -- </option>
+          <option id="country" name="country" value="no_selection">No Selection</option>
+          <option id="country" name="country" value="usa">USA</option>
+          <option id="country" name="country" value="india">INDIA</option>
+          <option id="country" name="country" value="uk">UK</option>
+          <option id="country" name="country" value="japan">JAPAN</option>
+          <option id="country" name="country" value="china">CHINA</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Your Contact information</legend>
+        <label for="email">Email: </label><input type="email" id="email" name="email"  class="form-control"  required>
+        <br>
+        <label for="phone">Mobile: </label><input id="phone" name="phone"  class="form-control"  type="tel">
+        <br>
+        <label for="address">Address: </label>
+        <textarea id="address" name="address"  class="form-control"  rows="3" cols="50"></textarea>
+        <br>
+        <label for="contact">Method to contact you: </label><input type="checkbox" id="contact" name="email"  value="email">Email &nbsp&nbsp
+        <input type="checkbox" id="contact" name="whatsapp"  value="whatsapp">Whatsapp
+      </fieldset>
+      <br>
+      <input type="submit"  class="btn btn-primary" value="Submit">
+    </form><br><br>
+    <p><strong>Note: </strong>If you click the "Submit" button, the form-data will be Submitted.</p>
+    <script src="https://www.cse.ust.hk/~rossiter/dating_web_site.js"></script>
+
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>  
+
+    <footer>
+      <div class="container">
+          <p>Copyright &copy; 2017 Ankush Sankhe</p>
+      </div>
+    </footer>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+
+  </body>
+</html>

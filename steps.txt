@@ -1,0 +1,63 @@
+Install Koala : http://koala-app.com/
+
+Install node.js : https://nodejs.org/en/
+
+Create a folder and open cp=ommand prompt there and use the following lines to install the required components
+
+npm install -g bower
+
+bower install bootstrap-sass --save
+
+By doing thsi automatically bowercomponents folder will be created in our folder
+
+Create required folders like sass, css, img and others if you wish
+
+Add app.scss in sass folder
+In app.scss import the required files which you want e.g
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
+@import "../bower_components/font-awesome/scss/font-awesome";
+
+
+Then select the sass folder from our project through koala and set it to auto compile.
+Once that is done our sass folder will compile and the compiled file of app.css will be craeted in css folder
+
+Then create index.html and copy the Simple template from 
+"view-source:https://getbootstrap.com/examples/starter-template/"
+
+Remove the unwanted lines and add the required files e.g
+<link rel="stylesheet" href="css/app.css">
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+
+
+And also change <nav class="navbar navbar-inverse navbar-fixed-top"> to <nav class="navbar navbar-default">
+
+Installing live server: (one time activity)
+npm install -g live-server
+live-server (for default port) or 
+live-server --port = 8000
+
+
+Now copy the contents of "OurFolder\bower_components\bootstrap-sass\assets\stylesheets\bootstrap\_variables.scss" and paste it into new file in our sass folder by name "_customVariables.scss" update this file as per your requirements, add any colors to pallete and save it
+Similarly add _functions.scss with the following code
+@function set-text-color($color){
+  @if(lightness($color) > 50){
+    @return #000000;
+  } @else {
+    @return #ffffff;
+  }
+}
+
+and _custom.scss where any additional styling which we want to give will go in this file
+
+
+Thenimport the above file in app.scss by the following line
+@import "customVariables";
+@import "functions";
+@import "custom";
+
+
+Now create your own web pages and style them as you wish!!!
+
